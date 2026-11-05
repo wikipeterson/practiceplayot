@@ -144,7 +144,7 @@ p { margin: 0; }
 
 /* Team */
 .team { display: flex; flex-wrap: wrap; gap: 28px; }
-.person { flex: 1 1 300px; min-width: 0; display: flex; flex-direction: column; gap: 12px; }
+.person { flex: 1 1 300px; max-width: 360px; min-width: 0; display: flex; flex-direction: column; gap: 12px; }
 .person img { width: 100%; aspect-ratio: 4 / 4.4; object-fit: cover; object-position: top; border-radius: var(--radius); background: var(--petal); }
 .person h3 { color: var(--ink); font-size: 1.25rem; }
 .person p { color: var(--muted); }
